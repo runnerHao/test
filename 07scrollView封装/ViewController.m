@@ -20,7 +20,7 @@
     HSScrollImages *scrollImages = [HSScrollImages scrollImages];
     scrollImages.imageNames = @[@"img_01",@"img_02",@"img_03",@"img_04"];
     scrollImages.frame = CGRectMake(20, 20, 350, 300);
-    
+    NSLog(@"hello world");
     [self.view addSubview:scrollImages];
 }
 
